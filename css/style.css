@@ -1,0 +1,141 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+
+@import url("components/photo.css");
+
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Lora', serif;
+  font-size: 24px;
+ text-align: center;
+  margin: 0px;
+}
+
+h1{
+	font-size: 60px;
+	text-align: center;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+
+  text-align: center;
+}
+
+p{
+	text-align: center;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .banner {
+    width: 700px;
+  }
+}
+@media (max-width: 700px) {
+  /* For a screen < 720px, this CSS will be read */
+  .banner {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner {
+    width: 300px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .banner-with-flat-filter {
+    width: 700px;
+  }
+}
+@media (max-width: 700px) {
+  /* For a screen < 720px, this CSS will be read */
+  .banner-with-flat-filter {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner-with-flat-filter {
+    width: 300px;
+  }
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .btn-blue {
+    width: 700px;
+  }
+}
+@media (max-width: 700px) {
+  /* For a screen < 720px, this CSS will be read */
+  .btn-blue {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .btn-blue {
+    width: 300px;
+  }
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline2 li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline3 li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+
+}
+
+.list-inline a {
+  color: black;
+}
+.list-inline img{
+  width: 450px;
+}
+.list-inline2 img{
+width: 250px;
+}
+.list-inline3 img {
+  width: 190px;
+}
+
+#youtube {
+  color: red;
+}
+
+h2 { text-align: center}
+p {font-size: 22px; box-sizing: 30px
+
+}

@@ -1,0 +1,65 @@
+.banner{
+
+  /* 1. Set a background image */
+  background-image: url(../../images/arrière-plan.png);
+  /* 2. Make the background image cover the banner div */
+	background-size: cover;
+  /* 3. Center the image */
+	background-position: center;
+	padding: 430px 320px 10px;
+	font-weight: 600;
+	height: 200px;
+
+
+
+
+}
+	.banner-with-flat-filter {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/laponie.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner h1{
+
+	font-size: : 38px;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+
+}
+
+
+
+
+}
+
+.banner h2{
+	color: black;
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 40px;
+	padding-top: : 150px;
+	padding-bottom: 159px;
+	justify-content: center;
+	align-items: flex-start;
+	display: flex;
+}
+
+.img-circle1 {
+	height:200;
+	 width:200;
+}
